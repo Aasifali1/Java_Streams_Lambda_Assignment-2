@@ -11,7 +11,7 @@ public class PrimeNumberTests {
     final List<Integer> numbersList = Arrays.asList(1,5,4,8,9,7,32,33,65,71);
     
 //   we already created a prime list of numbers as expected list.
-    List<Integer> expectedPrimeNumbers = Arrays.asList(1,5,7,71);
+    final List<Integer> expectedPrimeNumbers = Arrays.asList(1,5,7,71);
 
     @Test
     public void testPrimeNumberReturnListOfPrimeNumbers(){
